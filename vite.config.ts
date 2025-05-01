@@ -8,8 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    base: '/Sociolinq/', // 👈 this MUST match your repo name
-    plugins: [react()],
+    base: '/Sociolinq/', // 👈 this MUST match
   },
   plugins: [
     react(),
@@ -22,5 +21,3 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
-
-// vite.config.ts
